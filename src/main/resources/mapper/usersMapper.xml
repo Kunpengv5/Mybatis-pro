@@ -28,4 +28,15 @@ namespace属性是用来配置命名空间，主要进行session级别的缓存�
         <!--column是DB中的字段名，property是bean中的名字-->
         <result column="username" property="name"></result>
     </resultMap>
+
+    <!--sql片段用于sql比较冗长，调用次数比较多的情况-->
+    <sql id="user_fields">
+        username,`password`,nickname,age,gender,email,phone,createTime,updateTime,lastLogin,userStatus
+    </sql>
+
+    <!--设置自动增长为true，然后将自动增长的值复制给id属性-->
+    <insert id="addUsers" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO users(<include refid="user_fields"></include>)
+        values(#{name},#{password}, #{nickname}, #{age}, #{gender}, #{email}, #{phone}, #{createTime}, #{updateTime}, #{lastLogin}, #{userStatus})
+    </insert>
 </mapper>

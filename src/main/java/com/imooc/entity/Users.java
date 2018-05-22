@@ -28,6 +28,20 @@ public class Users {
         this.id = id;
     }
 
+    public Users(String name, String password, String nickname, Integer age, String gender, String phone, String email, Date createTime, Date updateTime, Date lastLogin, Integer userStatus) {
+        this.name = name;
+        this.password = password;
+        this.nickname = nickname;
+        this.age = age;
+        this.gender = gender;
+        this.phone = phone;
+        this.email = email;
+        this.createTime = createTime;
+        this.updateTime = updateTime;
+        this.lastLogin = lastLogin;
+        this.userStatus = userStatus;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -35,14 +49,6 @@ public class Users {
     public void setId(Integer id) {
         this.id = id;
     }
-
-//    public String getUsername() {
-//        return username;
-//    }
-//
-//    public void setUsername(String username) {
-//        this.username = username;
-//    }
 
     public String getName() {
         return name;

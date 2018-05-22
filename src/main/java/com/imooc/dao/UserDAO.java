@@ -13,6 +13,9 @@ import java.util.List;
 public class UserDAO {
     private List<Users> list;
     private SqlSession sqlSession;
+    private Users user;
+
+
     private SqlSession getSession(){
         sqlSession = SqlSessionFactoryUtils.getSqlSessionFactory().openSession();
         return sqlSession;
@@ -23,7 +26,13 @@ public class UserDAO {
      * @return
      */
     public List<Users>getAllUsers(){
-        list  =  getSession().selectList("findUsers");
+        try {
+            list  =  getSession().selectList("findUsers");
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            sqlSession.close();
+        }
         return list;
     }
 
@@ -32,10 +41,32 @@ public class UserDAO {
      * @return
      */
     public Users getUserById(Integer id){
-//        return getSession().selectOne("findUserById",id);
-//       if或when标签是针对JAVABEAN或者MAP的
-        return getSession().selectOne("findUsers",new Users(id));
 
+        try {
+//         return getSession().selectOne("findUserById",id);
+//         if或when标签是针对JAVABEAN或者MAP的
+           user = getSession().selectOne("findUsers",new Users(id));
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            sqlSession.close();
+        }
+        return user;
     }
+
+    public void addUser(Users users){
+        try {
+            // 返回值：是insert执行过程中影响的行数
+            getSession().insert("addUsers", users);
+            sqlSession.commit();
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            sqlSession.close();
+        }
+    }
+
+
+
 
 }

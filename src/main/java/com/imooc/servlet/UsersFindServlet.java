@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
+import org.apache.log4j.Logger;
 
 /**
  * @author dukunpeng
@@ -19,8 +20,12 @@ import java.util.List;
 @WebServlet("/index")
 public class UsersFindServlet extends HttpServlet {
 
-    //创建userService对象
+    /**
+     * 创建userService对象
+     */
     private  UserService userService;
+
+    private Logger log = Logger.getLogger(UsersFindServlet.class);
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -32,8 +37,7 @@ public class UsersFindServlet extends HttpServlet {
         userService = new UserService();
         //通过getAllUsers方法获取到所有的用户
         List<Users> list = userService.getAllUsers();
-//        System.out.println(list);
-        //将用户的list信息，传递给前台页面
+        //System.out.println(list); 将用户的list信息，传递给前台页面
         req.setAttribute("usersList", list);
         req.getRequestDispatcher("index.jsp").forward(req, resp);
     }

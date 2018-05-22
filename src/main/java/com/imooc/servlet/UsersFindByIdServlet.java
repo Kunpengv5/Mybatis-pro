@@ -2,6 +2,7 @@ package com.imooc.servlet;
 
 import com.imooc.entity.Users;
 import com.imooc.service.UserService;
+import org.apache.log4j.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -17,8 +18,10 @@ import java.io.IOException;
  */
 @WebServlet("/detail")
 public class UsersFindByIdServlet extends HttpServlet {
-    UserService userService;
-    Users user;
+    private UserService userService;
+    private Users user;
+    private Logger log = Logger.getLogger(UsersFindByIdServlet.class);
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         this.doPost(req,resp);
@@ -26,11 +29,15 @@ public class UsersFindByIdServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//      super.doPost(req, resp);
         userService = new UserService();
-        //前台获取到id信息
         String id = req.getParameter("id");
+
+        log.info("获取到前台的查询参数id--->"+id);
+
         user = userService.getUserById(Integer.valueOf(id));
+
+        log.info("查询完成，查询到的数据:"+ user);
+
         req.setAttribute("user",user);
         req.getRequestDispatcher("detail.jsp").forward(req,resp);
     }

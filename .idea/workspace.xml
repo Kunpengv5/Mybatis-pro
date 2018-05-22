@@ -10,103 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea2bfdc1-d7fa-4d24-b0a2-11be2ee48692" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mybatis_pro_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/mybatis_pro_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_p3c_p3c_pmd_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_pmd_pmd_core_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_pmd_pmd_java_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_pmd_pmd_vm_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addusers.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-pro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-pro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/entity/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindByIdServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindByIdServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/usersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/usersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/usersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/usersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/aether-api-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/aether-impl-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/aether-spi-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/aether-util-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/asm-6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/commons-chain-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/commons-digester-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/commons-validator-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/doxia-core-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/doxia-decoration-model-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/doxia-logging-api-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/doxia-module-fml-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/doxia-module-xhtml-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/doxia-sink-api-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/doxia-site-renderer-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/doxia-skin-model-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/gson-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/javacc-5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/jaxen-1.1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/jcommander-1.48.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-aether-provider-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-artifact-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-core-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-model-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-model-builder-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-plugin-api-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-pmd-plugin-3.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-reporting-api-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-reporting-impl-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-repository-metadata-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-settings-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-settings-builder-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/maven-shared-utils-3.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/oro-2.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/plexus-cipher-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/plexus-classworlds-2.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/plexus-component-annotations-1.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/plexus-container-default-1.0-alpha-30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/plexus-i18n-1.0-beta-7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/plexus-interpolation-1.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/plexus-resources-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/plexus-sec-dispatcher-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/plexus-utils-3.0.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/plexus-velocity-1.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/pmd-core-6.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/pmd-java-6.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/pmd-javascript-6.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/pmd-jsp-6.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/rhino-1.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/saxon-9.1.0.8-dom.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/saxon-9.1.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/sisu-guice-2.1.7-noaop.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/sisu-inject-bean-1.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/sisu-inject-plexus-1.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/sslext-1.2-0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/struts-core-1.3.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/struts-taglib-1.3.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/struts-tiles-1.3.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/velocity-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/velocity-tools-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/lib/xmlunit-1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/entity/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/entity/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/servlet/UsersFindByIdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/servlet/UsersFindByIdServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/servlet/UsersFindServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/com/imooc/servlet/UsersFindServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/mapper/usersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-pro-1.0-SNAPSHOT/WEB-INF/classes/mapper/usersMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,8 +55,61 @@
     <expand />
     <select />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/dao/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/entity/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-748">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="97" selection-start-line="12" selection-start-column="97" selection-end-line="12" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usersMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/usersMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,6 +126,7 @@
       <find>addresss</find>
       <find>username</find>
       <find>mybatis</find>
+      <find>addusers</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,6 +136,11 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -171,18 +155,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/utils/SqlSessionFactoryUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindByIdServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/entity/Users.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/detail.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/usersMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindByIdServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/entity/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addusers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersAddServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/usersMapper.xml" />
       </list>
     </option>
   </component>
@@ -243,8 +229,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,6 +281,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -308,7 +304,8 @@
               <item name="mybatis-pro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis-pro" type="b2602c69:ProjectViewProjectNode" />
@@ -316,13 +313,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,7 +330,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -355,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -374,6 +369,31 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="clean install" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -602,6 +622,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.clean install" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -633,7 +657,8 @@
       <workItem from="1526953665831" duration="712000" />
       <workItem from="1526962550619" duration="2601000" />
       <workItem from="1526971199835" duration="1683000" />
-      <workItem from="1526972897007" duration="1754000" />
+      <workItem from="1526972897007" duration="4331000" />
+      <workItem from="1526977244654" duration="13540000" />
     </task>
     <task id="LOCAL-00001" summary="修復">
       <created>1526973097014</created>
@@ -642,11 +667,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526973097014</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="解決掉依賴衝突">
+      <created>1526974701472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526974701472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50882000" />
+    <option name="totallyTimeSpent" value="66999000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -662,35 +694,35 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.500334" side_tool="true" weight="0.6666667" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.499666" weight="0.34195402" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.499666" weight="0.34075105" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" weight="0.3275862" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.15564463" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" visible="true" weight="0.31988874" />
       <window_info anchor="right" id="Database" order="5" weight="0.32932532" />
       <window_info id="Structure" order="1" sideWeight="0.50206614" side_tool="true" weight="0.24950232" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.249165" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.498998" weight="0.6106322" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.498998" weight="0.4867872" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.499666" weight="0.32614943" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.499666" weight="0.41379312" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.499666" weight="0.6694678" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3275862" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.499666" visible="true" weight="0.56284916" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.62643677" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6436782" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.15149501" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499666" weight="0.30876216" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.6256983" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.57681566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.22428666" />
       <window_info id="Web" order="7" sideWeight="0.50206614" side_tool="true" weight="0.24950232" />
       <window_info id="JRebel" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.15948276" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -768,11 +800,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修復" />
-    <option name="LAST_COMMIT_MESSAGE" value="修復" />
+    <MESSAGE value="解決掉依賴衝突" />
+    <option name="LAST_COMMIT_MESSAGE" value="解決掉依賴衝突" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -781,6 +814,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>users.getId()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>SqlSessionFactoryUtils.getSqlSessionFactory().openSession();</expression-string>
         <language-id>JAVA</language-id>
@@ -794,41 +832,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/utils/SqlSessionFactoryUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/usersMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/utils/SqlSessionFactoryUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/listener/InitSqlSessionListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1028,44 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/utils/SqlSessionFactoryUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/usersMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/entity/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="152" column="44" selection-start-line="152" selection-start-column="44" selection-end-line="152" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -1080,10 +1045,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/detail.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/utils/SqlSessionFactoryUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="e#603#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindByIdServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.3/mybatis-3.4.3.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="41" column="64" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.3/mybatis-3.4.3-sources.jar!/org/apache/ibatis/session/SqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="190" column="74" lean-forward="true" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="237" column="51" selection-start-line="225" selection-start-column="33" selection-end-line="237" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="41" column="65" lean-forward="true" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,45 +1121,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="47" />
+        <state relative-caret-position="136">
+          <caret line="26" column="98" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersFindByIdServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/servlet/UsersAddServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="158">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/dao/UserDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addusers.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="59" column="55" lean-forward="true" selection-start-line="59" selection-end-line="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+          <caret line="12" column="97" selection-start-line="12" selection-start-column="97" selection-end-line="12" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/entity/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="17">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/usersMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        <state relative-caret-position="-255">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
