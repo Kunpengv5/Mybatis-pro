@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//ibatis.apache.org//DTD Config 3.1//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--用于定义一个映射配置文件的根节点
+namespace属性是用来配置命名空间，主要进行session级别的缓存管理-->
+<mapper namespace="com.imooc.entity.Users">
+    <!--<select id="findUsers" resultType="com.imooc.entity.Users">-->
+        <!--select * from users-->
+    <!--</select>-->
+
+    <!--<select id="findUserById" parameterType="int"  resultType="com.imooc.entity.Users">-->
+        <!--select * from users where id=#{id}-->
+    <!--</select>-->
+    <!--上述二者，可以合并为一个-->
+    <!--<select id="findUsers" parameterType="int" resultType="com.imooc.entity.Users">-->
+    <select id="findUsers"  resultMap="forUsers">
+
+        select * from users
+        <if test="id!=null">
+            where id = #{id}
+        </if>
+
+    </select>
+
+    <!--自定义映射关系集合，主要包含对于一些自定义操作的配置，DB和Bean中的对应关系-->
+    <resultMap id="forUsers" type="com.imooc.entity.Users">
+        <!--column是DB中的字段名，property是bean中的名字-->
+        <result column="username" property="name"></result>
+    </resultMap>
+</mapper>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--<settings>-->
+        <!--<setting name="logImpl" value="LOG4J"/>-->
+    <!--</settings>-->
+    <!--通过properties加载外部的db.properties配置文件-->
+    <properties resource="db.properties"></properties>
+    <!--environments 主要用于进行数据源的配置
+    可以配置多个数据源,使用default来指定，项目运行过程中默认使用哪个数据源-->
+    <environments default="development">
+        <!--独立的数据源,id定义对应的名称-->
+        <environment id="development">
+            <!--transactionManager用于配置事务管理，默认情况下使用的是JDBC事务管理-->
+            <transactionManager type="JDBC"/>
+            <!--具体数据源的配置信息,type指定是否使用连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+
+        <environment id="product">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--主要用于配置外部的映射文件，
+    在主配置文件中需要映射加载映射配置文件-->
+    <mappers>
+        <!--配置引入具体的映射文件，resource进行路径方式的引入-->
+        <!--<mapper resource="org/mybatis/example/BlogMapper.xml"/>-->
+        <mapper resource="mapper/usersMapper.xml"/>
+    </mappers>
+</configuration>
